@@ -1,3 +1,11 @@
-.hero{
-    padding: 80px 20px;
+body {
+    padding-top: 80px; /* Adjust based on the height of your navbar */
+  }
+
+.fixed-top {
+    background-color: #f8f9fa !important; /* Bootstrap's bg-light color */
 }
+.navbar.fixed-top {
+    z-index: 1030; /* Ensure it's above other content */
+}
+
